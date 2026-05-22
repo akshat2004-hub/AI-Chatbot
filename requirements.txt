@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-google-genai
+faiss-cpu
+fastapi
+uvicorn
+python-dotenv
+beautifulsoup4
+google-generativeai
+pypdf
+docx2txt
+requests
+lxml
+duckduckgo-search
+python-multipart
+pydantic
