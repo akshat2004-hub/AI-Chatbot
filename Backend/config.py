@@ -8,11 +8,11 @@ class Config:
     GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
     # 🤖 Model Config
-    EMBEDDING_MODEL = "models/gemini-embedding-001"
+    EMBEDDING_MODEL = "models/gemini-embedding-exp-03-07"
 
-    PRIMARY_MODEL = "models/gemini-2.5-flash-lite"
-    FALLBACK_MODEL = "models/gemini-2.0-flash-lite"
-    LITE_MODEL = "models/gemini-2.0-flash-lite"
+    PRIMARY_MODEL = "models/gemini-2.5-flash"          # WORKS - Primary
+    FALLBACK_MODEL = "models/gemini-2.0-flash"         # Fallback
+    LITE_MODEL = "models/gemini-2.0-flash-lite"        # Last resort
 
     # 🔥 Temperature
     TEMPERATURE = 0.6
